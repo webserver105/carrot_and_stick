@@ -78,9 +78,9 @@ def test_algo():
 # Main function to run the training or testing
 def main():
     #train model
-    # train_algo()  # Uncomment this line to train the model
+    train_algo()  # Uncomment this line to train the model
     #test model
-    test_algo()  # Call the test function to evaluate the trained model
+    # test_algo()  # Call the test function to evaluate the trained model
 
 # Function to smooth the data using a moving average
 def smooth(data, window_size=10):
@@ -136,3 +136,4 @@ def plot_reward_data():
 if __name__ == '__main__':
     main()  # Run the main function to either train or test the model
     # plot_reward_data()  # Plot the training reward data
+
